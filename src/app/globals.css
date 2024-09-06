@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-100;
+  /* @apply bg-slate-200; */
+  @apply h-screen w-screen bg-gradient-to-l from-gray-50 via-blue-100 to-slate-50;
 }
 
 input[type="text"],
